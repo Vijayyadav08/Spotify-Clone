@@ -1,0 +1,698 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar {
+    width: 350px;
+
+    background: black;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+
+}
+
+.sidebarnav {
+    background-color: #151515;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px;
+
+
+}
+
+.sidebarnav .logo {
+    width: 120px;
+
+}
+
+.sidebarnav .logo img {
+    width: 100%;
+}
+
+.sidebarnav ul {
+    list-style: none;
+}
+
+.sidebarnav ul li {
+    padding: 10px 20px;
+
+}
+
+.sidebarnav ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.sidebarnav ul li a:hover {
+
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.sidebarnav ul li a i {
+    font-size: 20px;
+    margin-right: 12px;
+
+}
+
+.sidebarnav2 {
+    background-color: rgb(21, 21, 21);
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px;
+
+}
+
+.sidebarnav2 ul {
+    list-style: none;
+
+
+}
+
+.sidebarnav2 ul li {
+    padding: 10px 20px;
+
+
+}
+
+.sidebarnav2 .plus {
+    float: right;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.plus:hover {
+    background-color: #242323;
+}
+
+.sidebarnav2 ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+
+.sidebarnav2 ul li a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sidebarnav2 ul li a i {
+    font-size: 20px;
+    margin-right: 12px;
+
+}
+
+.sidebarnav2 .playlist {
+    color: white;
+    padding: 10px 15px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 7px;
+    margin-top: 20px;
+
+}
+
+.sidebarnav2 .playlist h4 {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.sidebarnav2 .playlist p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.sidebarnav2 .playlist button {
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    width: 50%;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.sidebarnav2 .playlist button:hover {
+    padding: 10px;
+    border-radius: 18px;
+    border-style: none;
+    width: 51%;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.sidebarnav2 .podcast {
+    color: white;
+    padding: 10px 15px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 7px;
+    margin-top: 20px;
+
+}
+
+.sidebarnav2 .podcast h4 {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.sidebarnav2 .podcast p {
+    font-size: 13px;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.sidebarnav2 .podcast button {
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    width: 55%;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sidebarnav2 .podcast button:hover {
+    padding: 10px;
+    border-radius: 18px;
+    border-style: none;
+    width: 56%;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.sidebar .privacy {
+    padding: 90px 20px;
+    background-color: #000000;
+
+}
+
+.sidebar .privacy ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.sidebar .privacy ul li a {
+    color: #8b8989;
+    text-decoration: none;
+    font-size: 12px;
+    list-style: none;
+    margin: 10px;
+
+
+}
+
+.sidebar .privacy span a {
+    color: rgb(211, 207, 207);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    margin: 5px;
+
+
+}
+
+.sidebar .privacy span a:hover {
+    text-decoration: underline;
+}
+
+.sidebar .privacy button {
+    width: 33%;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    margin: 35px 15px;
+    /* padding: 5px; */
+    border: 1px solid #8b8989;
+    padding: 15px;
+
+}
+
+.sidebar .privacy button:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 16px;
+
+}
+
+.main-section {
+    margin-left: 350px;
+    background-color: #151515;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.main-section .top-nav {
+    padding: 15px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main-section .top-nav .prev-btn button {
+
+    background: transparent;
+    border: 0;
+    outline: 0;
+
+}
+
+.main-section .top-nav .prev-btn button i {
+
+    color: #a39d9d;
+    font-size: 22px;
+    margin-right: px;
+    margin-left: 10px;
+    background-color: #0b0b0b;
+    padding: 3px 7px;
+    border-radius: 50%;
+
+}
+
+.main-section .top-nav .login-btn .sign-btn {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #a39d9d;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+
+}
+
+.main-section .top-nav .login-btn .sign-btn:hover {
+
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.main-section .top-nav .login-btn .login {
+    color: #000000;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 12px 25px;
+    border: 1px solid white;
+    transition: transform 0s;
+}
+
+.main-section .top-nav .login-btn .login:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.popular-artist {
+    background-color: #111111;
+    position: relative;
+    height: 90vh;
+    overflow: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.popular-artist::-webkit-scrollbar {
+    background-color: transparent;
+    width: 6px; 
+    height: 6px; 
+}
+
+.popular-artist::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.popular-artist:hover::-webkit-scrollbar-thumb {
+    background-color: #212020;
+}
+
+.popular-artist .see {
+    color: rgb(198, 192, 192);
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+.popular-artist .see:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.popular-artist h2 {
+    color: white;
+    padding-left: 20px;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    width: 19%;
+}
+
+.popular-artist h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.popular-artist .cards {
+    display: flex;
+    gap: 2px;
+    overflow: hidden;
+
+
+}
+
+.popular-artist .cards .card {
+    width: 200px;
+    min-width: 140px;
+    border-radius: 7px;
+    margin-left: 10px;
+    padding: 15px;
+    position: relative;
+
+
+}
+
+.popular-artist .cards .card:hover {
+    background-color: #171616;
+    cursor: pointer;
+
+}
+
+.popular-artist .cards .card img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+
+.popular-artist .cards .card h4 {
+    color: white;
+}
+
+.popular-artist .cards .card p {
+    color: #a19f9f;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.popular-artist .play-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #1DB954;
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: 135px;
+    opacity: 0;
+    transition: transform 0.2s ease;
+}
+
+
+.popular-artist .cards .card:hover .play-btn {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.play-btn i {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.popular-artist .show {
+    color: rgb(198, 192, 192);
+    position: absolute;
+    right: 30px;
+    bottom: -40px;
+
+}
+
+.popular-artist .show:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.popular-artist .popular-allbum {
+    display: flex;
+    gap: 2px;
+    overflow: hidden;
+
+}
+
+.popular-artist .popular-allbum .albums {
+
+    width: 200px;
+    min-width: 140px;
+    border-radius: 7px;
+    margin-left: 10px;
+    padding: 10px;
+    position: relative;
+
+}
+
+.popular-artist .popular-allbum .albums:hover {
+    background-color: #171616;
+    cursor: pointer;
+}
+
+.popular-artist .popular-allbum .albums img {
+    width: 100%;
+    border-radius: 5%;
+    height: 73%;
+    margin-bottom: 10px;
+}
+
+.popular-artist .popular-allbum .albums h4 {
+    color: white;
+}
+
+.popular-artist .popular-allbum .albums p {
+    color: #a19f9f;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+}
+
+.popular-allbum .p-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #1DB954;
+    border-radius: 50%;
+    position: absolute;
+    top: 148px;
+    left: 135px;
+    opacity: 0;
+    transition: transform 0.2s ease;
+}
+
+.popular-artist .popular-allbum .albums:hover .p-btn {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.p-btn i {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.popular-artist .popular-radio {
+    display: flex;
+    gap: 2px;
+    overflow: hidden;
+   
+}
+
+.popular-artist .popular-radio .radio {
+    width: 200px;
+    min-height: 140px;
+    border-radius: 7px;
+    margin-left: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.popular-artist .popular-radio .radio:hover {
+    background-color: #171616;
+    cursor: pointer;
+}
+
+.popular-artist .s {
+    color: rgb(198, 192, 192);
+    position: absolute;
+    right: 30px;
+    bottom: 315px;
+
+}
+
+.popular-artist .s:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.popular-artist .popular-radio .radio img {
+    width: 100%;
+    border-radius: 5px;
+    height: 73%;
+    margin-bottom: 10px;
+
+}
+
+.popular-artist .popular-radio .radio h4 {
+    color: white;
+
+}
+
+.popular-artist .popular-radio .radio p {
+    color: #a19f9f;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.popular-radio .p2-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #1DB954;
+    border-radius: 50%;
+    position: absolute;
+    top: 155px;
+    left: 140px;
+    opacity: 0;
+    transition: transform 0.2s ease;
+}
+
+.popular-artist .popular-radio .radio:hover .p2-btn {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.p2-btn i {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.footer-section {
+    padding: 20px 30px;
+}
+
+.footer-section .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+}
+
+.footer-section .footer .footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+
+}
+
+.footer-section .footer .footer-links .footer-column div {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.footer-section .footer .footer-links .footer-column ul li {
+    list-style: none;
+    margin: 10px 0px;
+
+}
+
+.footer-section .footer .footer-links .footer-column .col-links li a {
+    color: #a4a2a2;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 545;
+
+}
+
+.footer-section .footer .footer-links .footer-column .col-links li a:hover {
+    color: white;
+    text-decoration: underline;
+
+}
+
+.footer-section .footer .social-links div {
+    position: absolute;
+    display: flex;
+    left: 840px;
+}
+
+.footer-section .footer .social-links div i {
+    padding: 11px 11px;
+    color: white;
+    font-size: 18px;
+    background-color: #242323;
+    border-radius: 50%;
+    margin: 0px 10px;
+
+}
+
+.footer-section .footer .social-links div i:hover {
+    background-color: #363636;
+    cursor: pointer;
+
+}
+
+hr {
+    margin: 20px 30px;
+    border: 1px solid #363636;
+}
+
+.copright {
+    padding: 20px 30px;
+    color: #afaaaa;
+    font-size: 14px;
+    margin-bottom: 80px;
+    font-weight: 549;
+}
